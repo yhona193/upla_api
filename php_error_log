@@ -1,0 +1,321 @@
+[09-Aug-2022 05:15:53 Europe/Berlin] PHP Warning:  Undefined array key 1 in H:\xampp4\htdocs\apirest\models\get.model.php on line 194
+[09-Aug-2022 15:55:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70232084', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('persona', '*', 'docNumId,persPa...', '70232084_Quinta...', NULL, NULL, NULL, NULL)
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('persona', '*', 'docNumId,persPa...', '70232084_Quinta...', NULL, NULL, NULL, NULL)
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 15:59:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70232085', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 16:00:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70232085', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 16:00:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70232085', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 16:00:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70232085', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 16:00:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70232085', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 16:00:11 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70232085', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 16:00:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:143
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(143): PDOStatement->bindParam(':docNumId', '70232085', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detallegrado', '*', 'docNumId,gradId', '70232085_1', NULL, NULL, NULL, NULL)
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 143
+[09-Aug-2022 16:33:03 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70890897', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 16:37:03 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70890897', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 17:05:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70890897', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 17:06:23 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70890897', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[09-Aug-2022 17:07:56 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in H:\xampp4\htdocs\apirest\models\get.model.php:142
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\get.model.php(142): PDOStatement->bindParam(':docNumId', '70890897', 2)
+#1 H:\xampp4\htdocs\apirest\controllers\get.controller.php(27): GetModel::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#2 H:\xampp4\htdocs\apirest\routes\services\get.php(21): GetController::getDataFilter('detalleExperien...', 'detExperienciaI...', 'docNumId,expeId', '70890897_1', 'detExperienciaI...', 'asc', '0', '5')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(59): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\get.model.php on line 142
+[10-Aug-2022 00:24:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 00:24:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 00:25:04 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 00:25:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 00:25:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_Persona'. Cannot insert duplicate key in object 'Sigedo.Persona'. The duplicate key value is (21312). in H:\xampp4\htdocs\apirest\models\post.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\post.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\post.controller.php(34): PostModel::postData('persona', Array)
+#2 H:\xampp4\htdocs\apirest\routes\services\post.php(46): PostController::postRegister('persona', Array, 'pers')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(68): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\post.model.php on line 38
+[10-Aug-2022 00:25:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 02:36:12 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 02:37:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 03:04:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 03:05:00 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 03:05:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_Persona'. Cannot insert duplicate key in object 'Sigedo.Persona'. The duplicate key value is (324432). in H:\xampp4\htdocs\apirest\models\post.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\post.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\post.controller.php(34): PostModel::postData('persona', Array)
+#2 H:\xampp4\htdocs\apirest\routes\services\post.php(46): PostController::postRegister('persona', Array, 'pers')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(68): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\post.model.php on line 38
+[10-Aug-2022 03:09:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleGrado_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleGrado", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232084', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232084', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 03:13:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_Persona'. Cannot insert duplicate key in object 'Sigedo.Persona'. The duplicate key value is (21312). in H:\xampp4\htdocs\apirest\models\post.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\post.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\post.controller.php(34): PostModel::postData('persona', Array)
+#2 H:\xampp4\htdocs\apirest\routes\services\post.php(46): PostController::postRegister('persona', Array, 'pers')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(68): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\post.model.php on line 38
+[10-Aug-2022 03:15:11 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 03:15:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleGrado_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleGrado", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70890897', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70890897', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 03:19:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 03:20:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK_DetalleExperiencia_Persona". The conflict occurred in database "BDUPLA", table "Sigedo.DetalleExperiencia", column 'docNumId'. in H:\xampp4\htdocs\apirest\models\delete.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\delete.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\delete.controller.php(14): DeleteModel::deleteData('persona', '70232098', 'docNumId')
+#2 H:\xampp4\htdocs\apirest\routes\services\delete.php(33): DeleteController::deleteData('persona', '70232098', 'docNumId')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(88): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\delete.model.php on line 38
+[10-Aug-2022 03:21:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_Persona'. Cannot insert duplicate key in object 'Sigedo.Persona'. The duplicate key value is (21312). in H:\xampp4\htdocs\apirest\models\post.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\post.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\post.controller.php(34): PostModel::postData('persona', Array)
+#2 H:\xampp4\htdocs\apirest\routes\services\post.php(46): PostController::postRegister('persona', Array, 'pers')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(68): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\post.model.php on line 38
+[10-Aug-2022 03:22:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Violation of PRIMARY KEY constraint 'PK_Persona'. Cannot insert duplicate key in object 'Sigedo.Persona'. The duplicate key value is (21312). in H:\xampp4\htdocs\apirest\models\post.model.php:38
+Stack trace:
+#0 H:\xampp4\htdocs\apirest\models\post.model.php(38): PDOStatement->execute()
+#1 H:\xampp4\htdocs\apirest\controllers\post.controller.php(34): PostModel::postData('persona', Array)
+#2 H:\xampp4\htdocs\apirest\routes\services\post.php(46): PostController::postRegister('persona', Array, 'pers')
+#3 H:\xampp4\htdocs\apirest\routes\routes.php(68): include('H:\\xampp4\\htdoc...')
+#4 H:\xampp4\htdocs\apirest\controllers\routes.controller.php(8): include('H:\\xampp4\\htdoc...')
+#5 H:\xampp4\htdocs\apirest\index.php(26): RoutesController->index()
+#6 {main}
+  thrown in H:\xampp4\htdocs\apirest\models\post.model.php on line 38
